@@ -1,0 +1,74 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+  }
+  
+  h1 {
+    color: #2E8B57;  /* SeaGreen */
+  }
+  
+  h2, h3 {
+    color: #6B8E23;  /* OliveDrab */
+  }
+  
+  nav {
+    background-color: #2E8B57;  /* SeaGreen */
+    padding: 15px 0;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #FFFFFF;  /* White */
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  p {
+    color: #333333;  /* Darker grey */
+    line-height: 1.6;
+  }
+  
+  table {
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* New styles for a professional look */
+  .container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
+  }
+  
+  button {
+    background-color: #2E8B57;  /* SeaGreen */
+    color: #FFFFFF;  /* White */
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #6B8E23;  /* OliveDrab */
+    color: white;
+  }
+  
